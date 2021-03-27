@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class RandomNumber{
+public static void main(String[] args) {
+
+Scanner sc=new Scanner(System.in);
+        
+ System.out.println("enter the number");
+ int n=sc.nextInt();
+  int maxrange = 10;
+  int minrange = 1;
+  int range = maxrange - minrange + 1;
+
+  for (int i = 0; i < n; i++) {
+  int rand = (int) (Math.random() * range) + minrange;
+
+
+  System.out.println(rand);
+  }
+  }
+  }
+	
